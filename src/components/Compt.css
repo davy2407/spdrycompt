@@ -17,6 +17,12 @@
         width: 80vw;
     }
 
+    .Bloc2 button {
+        height: 5vh;
+        width: 20vw;
+        font-size: 1.1rem;
+    }
+
 
 
 }

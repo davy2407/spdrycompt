@@ -1,0 +1,58 @@
+.CompteurContainer{
+    height: 55vh;
+    width: 45vw;
+    border: 5px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 400px) {
+    .CompteurContainer{
+
+        height: 80vh;
+        width: 80vw;
+    }
+
+
+
+}
+
+
+.Bloc1{
+    width: 80%;
+    height: 15vh;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+.Bloc2{
+    width: 80%;
+    height: 15vh;
+
+}
+
+
+.Bloc3{
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 2%;
+    background-color: black;
+    color: rgb(255, 127, 0);
+    border-radius: 20px;
+    outline: none;
+    width: 15vw;
+    height: 10vh;
+    font-size: 1.6rem;
+}

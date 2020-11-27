@@ -36,6 +36,12 @@
 
 }
 
+.Bloc2 button {
+    height: 5vh;
+    width: 8vw;
+    font-size: 1.1rem;
+}
+
 
 .Bloc3{
     width: 80%;

@@ -9,11 +9,37 @@ import "./Compt.css";
 
 function Compt () {
 
+    const [currentValeur,setCurrentValeur] = useState(0);
     const [valeurCompteur, setValeurCompteur] = useState(0)
 
     const handleChange = (event) => {
-        setValeurCompteur(event.currentTarget.value);
+        setCurrentValeur(event.currentTarget.value);
       };
+
+
+      const valid = () => {
+          let nb =parseInt(currentValeur);
+          setValeurCompteur(nb);
+      }
+
+
+
+      const Moins = () =>{
+        let nb = valeurCompteur;
+        nb -= 1;
+        setValeurCompteur(nb);
+    }
+
+
+    const Plus = () =>{
+        let nb = valeurCompteur;
+        nb += 1;
+        setValeurCompteur(nb);
+    }
+    
+
+
+
 
     return (
         <div className="CompteurContainer">
@@ -26,8 +52,9 @@ function Compt () {
 
             <div className="Bloc2">
             <p>
-            <input type="number" min="0" value={valeurCompteur} onChange={(e)=>{handleChange(e)}}></input><br></br>
+            <input type="number" min="0" value={currentValeur} onChange={(e)=>{handleChange(e)}}></input><br></br>
             Modifier manuellement.. 
+            <button onClick={valid}>Valider</button>
 
             </p>
             
@@ -36,8 +63,8 @@ function Compt () {
            
            
             <div className="Bloc3">
-                <button onClick={()=>{setValeurCompteur(valeurCompteur-1)}}>-</button>
-                <button onClick={()=>{setValeurCompteur(valeurCompteur+1)}}>+</button>
+                <button onClick={Moins}>-</button>
+                <button onClick={Plus}>+</button>
 
             </div>
 

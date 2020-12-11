@@ -10,6 +10,12 @@
   font-size: 100%;
   font-style: oblique;
   font-weight: bold;
+  
+}
+
+.Titre{
+  text-shadow: 10px 16px 7px rgba(21,9,5,0.42), 10px 16px 7px rgba(21,9,5,0.42);
+
 }
 
 

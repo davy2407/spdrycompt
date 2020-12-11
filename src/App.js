@@ -4,7 +4,7 @@ import Compteur from "./components/Compt";
 function App() {
   return (
     <div className="App">
-      <h1>Hello la team !</h1>
+      <h1 className="Titre">HELLO LA TEAM !</h1>
       <Compteur></Compteur>
       
     </div>

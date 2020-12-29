@@ -97,9 +97,14 @@ function Compt () {
             } 
             
             
-        } else {
-            setCurrentClassNombre(classNombreBase)
         }
+        if (nb>35) {
+            nb=35;
+            setCurrentClassNombre(classNombreMAX);
+            setCurrentMax(MaxCli);
+        }
+        
+        
         setValeurCompteur(nb);
     }
 
@@ -113,16 +118,23 @@ function Compt () {
         }, 400);
         let nb = valeurCompteur;
         nb -= 1;
+        if (nb<0) {
+            nb = 0;
+        }
         if (nb >= 30) {
             setCurrentClassNombre(classNombreMAX);
             setCurrentMax(noMax);
             if (nb==35) {
                 setCurrentMax(MaxCli);
                 
+                
+                
             } 
             
             
-        } else {
+        }
+        
+         else {
             setCurrentClassNombre(classNombreBase)
         }
         setValeurCompteur(nb);

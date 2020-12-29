@@ -94,6 +94,74 @@
         font-size: 1.1rem;
     }
 
+    .CompteurContainer{
+        height: 75vh;
+        width: 95vw;
+        border: 5px solid black;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.3rem;
+        transition: 0.4s;
+        text-shadow: 10px 16px 7px rgba(21,9,5,0.42), 10px 16px 7px rgba(21,9,5,0.42);
+        -webkit-box-shadow: 14px 11px 15px 5px rgba(0,0,0,0.85); 
+        box-shadow: 14px 11px 15px 5px rgba(0,0,0,0.85);
+    
+    }
+    
+    
+    .CompteurContainerPLUS{
+        height: 75vh;
+        width: 95vw;
+        border: 3px solid black;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.3rem;
+        transition: 0.4s;
+        text-shadow: 10px 16px 7px rgba(21,9,5,0.42), 10px 16px 7px rgba(21,9,5,0.42);
+        -webkit-box-shadow: 14px 11px 15px 5px rgba(0,0,0,0.85); 
+        box-shadow: 14px 11px 15px 5px rgba(0,0,0,0.85);
+    
+    }
+    
+    .CompteurContainerMOINS{
+        height: 75vh;
+        width: 95vw;
+        border: 3px solid black;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.3rem;
+        transition: 0.4s;
+        text-shadow: 10px 16px 7px rgba(21,9,5,0.42), 10px 16px 7px rgba(21,9,5,0.42);
+        -webkit-box-shadow: 14px 11px 15px 5px rgba(0,0,0,0.85); 
+        box-shadow: 14px 11px 15px 5px rgba(0,0,0,0.85);
+    
+    }
+    
+    .CompteurContainerValidation{
+        height: 75vh;
+        width: 95vw;
+        border: 5px solid black;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.3rem;
+        transition: 0.4s;
+        text-shadow: 10px 16px 7px rgba(21,9,5,0.42), 10px 16px 7px rgba(21,9,5,0.42);
+        -webkit-box-shadow: 14px 11px 15px 5px rgba(0,0,0,0.85); 
+        box-shadow: 14px 11px 15px 5px rgba(0,0,0,0.85);
+    }
+
 
 
 }
